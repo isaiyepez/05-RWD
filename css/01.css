@@ -1,0 +1,38 @@
+.oferta {
+    background-color: #00446e;
+    padding: 2rem;
+    text-align: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.precio {
+    font-size: 6rem;
+    margin:0;
+}
+
+/* 
+
+    Con media queries, lo mejor es usar REMS
+    excepto para la definicion del max-width
+    porque solo detecta pixeles
+
+ */
+
+@media (max-width: 600px) {
+    
+    /* 
+    
+    No tienes que repetir todo 
+    el codigo, basta con que especifiques
+    la propiedad que cambia
+
+     */
+
+    oferta {
+        max-width: 30rem;
+    }
+    .precio {
+        font-size: 4rem;
+    }
+}
