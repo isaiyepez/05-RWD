@@ -1,0 +1,14 @@
+
+/* img, guardar este snippet porque
+    va a ser util en todos los proyectos
+
+    OJO: si usas Width en lugar de max-width
+    la imagen se va a estirar y deformar
+    si el contenedor es mas grande que la imagen
+    original.
+*/
+
+img {
+    max-width: 100%;
+    display: block;
+}

@@ -1,0 +1,15 @@
+.contenedor-responsive {
+    background-color: lightgrey;
+    /* 
+    
+    Esto es lo mismo que la
+    linea de abajo
+
+    width: 90%;
+    max-width: 1000px; 
+    
+    */
+    width: min(90%, 1000px);
+    height: 400px;
+    margin-inline: auto;
+}
